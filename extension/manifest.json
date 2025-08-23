@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "MV3 Boilerplate",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "src/background/index.js"
+  },
+  "action": {
+    "default_popup": "src/ui/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.amazon.com/*"],
+      "js": ["src/content/amazon.js"]
+    },
+    {
+      "matches": ["*://www.ebay.com/*"],
+      "js": ["src/content/ebay.js"]
+    }
+  ]
+}
