@@ -10,4 +10,4 @@ Non-API Chrome extension for creating Amazon and eBay draft listings.
 
 ## Development
 
-Source files live in the `src/` directory. Build or transpile scripts can output to a `dist/` directory if needed, which is ignored by Git.
+
