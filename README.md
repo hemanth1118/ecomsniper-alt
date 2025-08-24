@@ -10,4 +10,4 @@ Non-API Chrome extension for creating Amazon and eBay draft listings.
 
 ## Development
 
-All source files are plain JavaScript under `src/`, so no build step is required. If you add a bundler later, output to a `dist/` directory, which is ignored by Git.
+
